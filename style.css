@@ -1,0 +1,107 @@
+/* Stylesheet link  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap");
+
+/* banner  style */
+
+body {
+  font-family: Poppins;
+}
+.container {
+}
+
+.banner {
+}
+
+.elements {
+  display: flex;
+  margin: 130px;
+  gap: 8px;
+}
+
+.element {
+}
+
+.big-text {
+  font-size: 52px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+.banner-description {
+  font-size: 16px;
+}
+.primary-button {
+  background: #e02c6d;
+  border-radius: 41px;
+  padding: 10px 24px;
+}
+
+.bannerimg {
+  width: 440px;
+  height: 414px;
+}
+
+/* Company Section  */
+
+.companys {
+  display: flex;
+  width: 986.47px;
+  height: 39.61px;
+  justify-content: space-evenly;
+  margin: 0 auto;
+
+  margin-bottom: 130px;
+}
+
+/* Popular Collection 
+                ------------- */
+
+.popular-collection {
+}
+
+.polpular-collection-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  color: #3a3a3a;
+  margin-bottom: 30px;
+}
+
+.items img {
+  width: 300px;
+  height: 256px;
+}
+
+.item {
+  width: 329px;
+  height: 476px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+
+  margin: 0 100px;
+
+  grid-row-gap: 30px;
+}
+
+/* star settings  */
+
+.fa-star.filled {
+  color: #fb8200;
+}
+.fa-star-half-stroke.half-filled {
+  color: #fb8200;
+}
+
+.see-more {
+  color: rgba(235, 67, 129, 0.87);
+  font-weight: 700;
+  font-size: 16px;
+
+  text-align: end;
+}
